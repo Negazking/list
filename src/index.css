@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1{
+    text-align: center;
+    
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border: 1px solid beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.gambar{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 0.7em;
+
+}
+
+.subjudul{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+body{
+    background-image: url('../public/images/ilhamwibu.jpg');
+}
