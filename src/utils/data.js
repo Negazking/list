@@ -1,4 +1,4 @@
-const DataHewan=[
+const dataHewan=[
     {
       
       itemImages: '/images/kudabro.jpeg',
@@ -28,4 +28,4 @@ const DataHewan=[
 ]
 
 
-export default DataHewan;
+export default dataHewan;

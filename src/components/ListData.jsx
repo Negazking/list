@@ -10,8 +10,8 @@ function ListData(){
                     <ItemData {...foods} key={foods.itemImages}/>
                 ))
                 }
-        </div>
-    )
+      </div>
+)
 }
 
 
