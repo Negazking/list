@@ -1,4 +1,5 @@
-const dataHewan=[
+const getData = () => {
+  return [
     {
       
       itemImages: '/images/kudabro.jpeg',
@@ -26,6 +27,7 @@ const dataHewan=[
     },
     
 ]
+}
 
 
-export default dataHewan;
+export {getData};

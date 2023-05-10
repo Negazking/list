@@ -43,3 +43,11 @@ h1{
 body{
     background-image: url('/public/images/ilhamwibu.jpg');
 }
+
+.but {
+    background-color: red;
+    border: none;
+    width: 20px;
+    height: 25px;
+    color: white
+}
