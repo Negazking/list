@@ -14,7 +14,7 @@ constructor(props) {
         return (
             <div>
                 <h1>Data Hewan</h1>
-                <ListData dataList={this.state.dataList}/>
+                <ListData dataList={this.state.dataList} />
             </div>
         )
     }

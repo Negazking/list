@@ -6,7 +6,7 @@ function ListData({dataList, onDelete}){
         <div>
             {
                 dataList.map((foods) => (
-                    <ItemData {...foods} key={foods.itemImages}/>
+                    <ItemData {...foods} key={foods.id} id={foods.id} onDelete={onDelete}/>
                 ))
                 }
       </div>

@@ -3,7 +3,7 @@ import ItemImage from "./ItemImage";
 import ItemBody from "./ItemBody";
 import DeleteButton from "./DeleteButton"
 
-function ItemData({itemImages,ItemNama,Itemdesc, id , onDelete}){
+function ItemData({itemImages,ItemNama,Itemdesc, id ,onDelete}){
 
     return (
         <div className="card">
