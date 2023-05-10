@@ -6,7 +6,7 @@ constructor(props) {
     super(props)
 
     this.state = {
-        contacts: getData
+        dataList: getData()
     }
 }
 
@@ -14,7 +14,7 @@ constructor(props) {
         return (
             <div>
                 <h1>Data Hewan</h1>
-                <ListData/>
+                <ListData dataList={this.state.dataList}/>
             </div>
         )
     }

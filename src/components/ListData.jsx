@@ -1,12 +1,11 @@
 import React from "react";
 import ItemData from "./ItemData";
-import DataHewan from "../utils/data";
-function ListData(){
+function ListData({dataList, onDelete}){
     
     return (
         <div>
             {
-                DataHewan.map((foods) => (
+                dataList.map((foods) => (
                     <ItemData {...foods} key={foods.itemImages}/>
                 ))
                 }
